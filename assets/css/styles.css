@@ -1,0 +1,287 @@
+/* common body styles */
+body {
+  color: #21243d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* common styles*/
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.big-title {
+  padding-bottom: 6px;
+  padding-left: 16px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.section-link {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+
+  color: #00a8cc;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2.2;
+}
+
+.section-subtitle {
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.article-text {
+  display: block;
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  color: #8695a4;
+}
+
+/* header styles */
+.header {
+  font-weight: 500;
+  line-height: 1.2;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  display: block;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-link {
+  display: block;
+  padding: 38px 0;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #ff6464;
+}
+
+/* hero styles */
+.hero-wrapper {
+  max-width: 548px;
+  padding: 62px 0;
+  margin-right: 24px;
+  gap: 24px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.2;
+}
+.title-top {
+  display: block;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.title-bottom {
+  display: block;
+}
+
+.hero-text {
+  margin: 24px 0;
+}
+
+.hero-button {
+  padding: 3px 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2.22;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff6464;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* posts styles */
+.posts {
+  background-color: #edf7fa;
+}
+
+.posts-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  gap: 24px;
+}
+
+.article {
+  padding: 16px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+/* features styles */
+.features-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.features-list {
+  gap: 6px;
+}
+
+.features-item {
+  display: flex;
+  padding: 24px 8px 24px 0;
+  gap: 32px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+.features-picture {
+  border-radius: 0px;
+}
+
+.features .section-subtitle {
+  margin-bottom: 12px;
+}
+
+.features-text {
+  margin-bottom: 28px;
+}
+
+/* footer styles */
+.footer {
+  background-color: #ffffff;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 32px 15px 0;
+}
+.footer-socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.footer-link {
+  display: block;
+  padding: 16px 0;
+}
+.footer-icon {
+  stroke: #678398;
+  fill-opacity: 0;
+}
+
+.copyright {
+  display: block;
+  margin-bottom: 75px;
+  color: #678398;
+}
+
+/* blog styles */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.article-box {
+  padding-bottom: 16px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+.blog-article {
+  padding: 16px;
+}
